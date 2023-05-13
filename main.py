@@ -65,7 +65,6 @@ def save_state_to_file(zoo, day):
 
 name_zoo = Zoo("Victoria")
 
-# Додавання тварин до зоопарку
 animal1 = Animal("Lion", "Richard" , 1)
 name_zoo.add_animal(animal1)
 
@@ -74,7 +73,6 @@ name_zoo.add_animal(animal2)
 
 animal3 = Animal("Induk", "Sakura" , 2)
 name_zoo.add_animal(animal3)
-
 
 for day in range(1, 11):
     name_zoo.feed_all()
